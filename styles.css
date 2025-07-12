@@ -1,0 +1,155 @@
+@font-face{
+    font-family:font;
+    src:url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+body{
+    font-family:font;
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    margin: 100px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.left{
+    color: white;
+    background: linear-gradient(#6743ff,#322deb);
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+}
+
+.right{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:250px;
+    height:400px;
+}
+
+.leftheader{
+    text-align: center;
+    color:#bbb0fc;
+    
+}
+
+.circle {
+  background: linear-gradient(#4b24cd,#4734ee);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.percent{
+   margin:0px;
+   font-size: 50px;
+}
+
+.total{
+    margin: 0px;
+    color:#bbb0fc;
+}
+
+.leftfooter{
+    margin: auto auto;
+    width: 200px;
+    text-align: center;
+}
+
+.footertext1{
+    margin:0px 0px;
+}
+
+.footertext2{
+    font-size: 15px;
+    margin:10px 0px;
+}
+
+.rightheader{
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.reaction,.memory,.verbal,.visual{
+    border-radius: 10px;
+    display: flex;
+    margin: 20px 20px;
+    width:200px;
+    height: 40px;
+}
+.reaction{
+    background-color: #ffdee2;
+}
+.memory{
+    background-color: #ffe8cb;
+}
+
+.verbal{
+    background-color: #ceffed;
+}
+
+.visual{
+    background-color: #d1d1ff;
+}
+
+.icon1,.icon2,.icon3,.icon4{
+    width: 25px;
+    margin-left: 8px;
+}
+
+.t1,.t2,.t3,.t4{
+    margin:10px 15px;
+}
+
+.per1{
+    margin-top:10px;
+    margin-left:15px;
+}
+
+.per2{
+    margin-top:10px;
+    margin-left:18px;
+}
+
+.per3{
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.per4{
+    margin-top:10px;
+    margin-left:33px;
+}
+
+button{
+    font-size: 15px;
+    font-family: font;
+    color: white;
+    text-align: center;
+    width:200px;
+    height: 40px;
+    margin:15px 25px;
+    background: linear-gradient(#6743ff,#322deb);
+    border:none;
+    border-radius: 20px;
+}
+
+button:hover{
+background: darkblue;
+text-decoration: underline;
+}
